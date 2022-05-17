@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var hoja2_1 = require("./hoja2");
+var Nokia3210 = new hoja2_1.Mobile('nokia3210', '3210', 'Nokia', 16, 'azul', false, 3, 400);
+var iphone3G = new hoja2_1.Mobile('iphone3g', '3g', 'apple', 32, 'blanco', false, 3, 600);
+var SamsungGalaxy10 = new hoja2_1.Mobile('SamsungGalaxy10', 'Galaxi10', 'Samsum', 32, 'negro', true, 4, 800);
+console.log(Nokia3210);
+console.log(iphone3G);
+console.log(SamsungGalaxy10);
+Nokia3210.is5G = true;
+Nokia3210.cameraNumber = 4;
+console.log(Nokia3210);
+console.log(iphone3G);
+console.log(SamsungGalaxy10);
